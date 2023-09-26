@@ -3,12 +3,12 @@ import React from 'react';
 
 export default function Footer(){
     return (
-        <div>
-            <a href='...'><i class="fa-solid fa-user"></i></a>
-            <a href='...'><i class="fa-solid fa-user"></i></a>
-            <a href='...'><i class="fa-solid fa-user"></i></a>
-            <a href='...'><i class="fa-solid fa-user"></i></a>
-            <a href='...'><i class="fa-solid fa-user"></i></a>
+        <div className="Footer">
+            <a href='...'><i class="fa-brands fa-github"></i></a>
+            <a href='...'><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href='...'><i class="fa-brands fa-youtube"></i></a>
+            <a href='...'><i class="fa-brands fa-twitter"></i></a>
+            <a href='...'><i class="fa-brands fa-instagram"></i></a>
         </div>
     )
 }

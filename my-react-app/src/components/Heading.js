@@ -3,10 +3,11 @@ import React from 'react';
 
 export default function Heading(){
     return (
-        <div>
-            <h1>Egg Dog</h1>
+        <div className="Heading">
+            <h1>Alexis Boldt</h1>
             <h2>Front End Designer</h2>
-            <a target="_blank" rel='noreferrer' href="https://eggdog.shop">Egg Dog Website</a>
+            <a className="Btn" target="_blank" rel='noreferrer' href="https://aeiaieo.com">Personal website</a>
+            <a className="Btn" rel='noreferrer' href="...">Email</a>
         </div>
     )
 }
